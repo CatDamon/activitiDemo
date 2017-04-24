@@ -1,0 +1,8 @@
+#声明一个realm  
+gdxRealm=gdx.shiro.demo.TestShiroByRealm
+#指定securityManager的realms实现  
+securityManager.realms=$gdxRealm  
+
+[users]  
+zhang=12345
+wang=123

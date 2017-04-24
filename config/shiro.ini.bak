@@ -1,0 +1,7 @@
+[users]  
+zhang=12345,teacher,master
+wang=123,master
+
+[roles]  
+teacher=user:create,user:update  
+master=user:delete
